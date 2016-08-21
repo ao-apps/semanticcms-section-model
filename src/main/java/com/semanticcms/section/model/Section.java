@@ -45,11 +45,6 @@ public class Section extends Element {
 	}
 
 	@Override
-	public String getListItemCssClass() {
-		return "semanticcms-section-list-item-section";
-	}
-
-	@Override
 	protected String getDefaultIdPrefix() {
 		return "section";
 	}
