@@ -53,9 +53,4 @@ public class Section extends Element {
 	protected String getDefaultIdPrefix() {
 		return "section";
 	}
-
-	@Override
-	public String getLinkCssClass() {
-		return null;
-	}
 }
