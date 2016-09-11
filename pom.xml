@@ -32,7 +32,7 @@ along with semanticcms-section-model.  If not, see <http://www.gnu.org/licenses 
 
 	<groupId>com.semanticcms</groupId>
 	<artifactId>semanticcms-section-model</artifactId>
-	<version>1.3</version>
+	<version>1.4-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>SemanticCMS Section Model</name>
@@ -43,7 +43,7 @@ along with semanticcms-section-model.  If not, see <http://www.gnu.org/licenses 
 		<connection>scm:git:git://github.com/aoindustries/semanticcms-section-model.git</connection>
 		<developerConnection>scm:git:git@github.com:aoindustries/semanticcms-section-model.git</developerConnection>
 		<url>http://github.com/aoindustries/semanticcms-section-model</url>
-		<tag>semanticcms-section-model-1.3</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<dependencies>
