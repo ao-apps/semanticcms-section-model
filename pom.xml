@@ -38,6 +38,7 @@ along with semanticcms-section-model.  If not, see <http://www.gnu.org/licenses 
 	<name>SemanticCMS Section Model</name>
 	<url>https://semanticcms.com/section/model/</url>
 	<description>Sections nested within SemanticCMS pages and elements.</description>
+	<inceptionYear>2013</inceptionYear>
 
 	<scm>
 		<connection>scm:git:git://github.com/aoindustries/semanticcms-section-model.git</connection>
