@@ -36,12 +36,16 @@ public class Section extends Element {
 
 	@Override
 	public String getLabel() {
-		return label;
+		synchronized(lock) {
+			return label;
+		}
 	}
 
 	public void setLabel(String label) {
-		checkNotFrozen();
-		this.label = label==null || label.isEmpty() ? null : label;
+		synchronized(lock) {
+			checkNotFrozen();
+			this.label = label==null || label.isEmpty() ? null : label;
+		}
 	}
 
 	@Override
