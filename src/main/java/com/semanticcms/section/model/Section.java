@@ -27,26 +27,16 @@ import com.semanticcms.core.model.Element;
 
 public class Section extends Element {
 
-	private String label;
-
-	@Override
-	public Section freeze() {
-		super.freeze();
-		return this;
-	}
+	private volatile String label;
 
 	@Override
 	public String getLabel() {
-		synchronized(lock) {
-			return label;
-		}
+		return label;
 	}
 
 	public void setLabel(String label) {
-		synchronized(lock) {
-			checkNotFrozen();
-			this.label = nullIfEmpty(label);
-		}
+		checkNotFrozen();
+		this.label = nullIfEmpty(label);
 	}
 
 	@Override
