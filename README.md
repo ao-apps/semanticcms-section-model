@@ -4,7 +4,7 @@ Sections nested within [SemanticCMS](https://semanticcms.com/) pages and element
 ## Project Links
 * [Project Home](https://semanticcms.com/section/model/)
 * [API Docs](https://semanticcms.com/section/model/apidocs/)
-* [Maven Central Repository](http://search.maven.org/#search|gav|1|g:%22com.semanticcms%22%20AND%20a:%22semanticcms-section-model%22)
+* [Maven Central Repository](https://search.maven.org/#search|gav|1|g:%22com.semanticcms%22%20AND%20a:%22semanticcms-section-model%22)
 * [GitHub](https://github.com/aoindustries/semanticcms-section-model)
 
 ## Contact Us
