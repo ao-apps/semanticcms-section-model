@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://aoindustries.com/) [SemanticCMS](https://semanticcms.com/) / [Section](https://semanticcms.com/section/) / [Model](https://semanticcms.com/section/model/)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [SemanticCMS](https://github.com/aoindustries/semanticcms) / [Section](https://github.com/aoindustries/semanticcms-section) / [Model](https://github.com/aoindustries/semanticcms-section-model)
 <p>
 	<a href="https://aoindustries.com/life-cycle#project-current-stable">
 		<img src="https://semanticcms.com/ao-badges/project-current-stable.svg" alt="project: current stable" />
@@ -21,7 +21,7 @@
 	</a>
 </p>
 
-Sections nested within [SemanticCMS](https://semanticcms.com/) pages and elements.
+Sections nested within [SemanticCMS](https://github.com/aoindustries/semanticcms) pages and elements.
 
 ## Project Links
 * [Project Home](https://semanticcms.com/section/model/)
