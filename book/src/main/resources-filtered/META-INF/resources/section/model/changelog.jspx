@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 semanticcms-section-model - Sections nested within SemanticCMS pages and elements.
-Copyright (C) 2016, 2017, 2019  AO Industries, Inc.
+Copyright (C) 2016, 2017, 2018, 2019  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -37,7 +37,7 @@ along with semanticcms-section-model.  If not, see <http://www.gnu.org/licenses 
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-31T02:08:40-0500"
-		dateModified="2017-07-19T23:14:12-0500"
+		dateModified="2019-06-01T18:51:51-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-section-model:pom.version}" />
@@ -52,7 +52,29 @@ along with semanticcms-section-model.  If not, see <http://www.gnu.org/licenses 
 				groupId="@{documented.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{documented.scm.url}"
-			/>
+			>
+				<ul>
+					<!-- TODO: <li>Minimum Java version changed from 1.6 to 1.7.</li>-->
+					<li>
+						<p>
+							Implemented additional <ao:a href="https://www.w3.org/TR/html5/dom.html#sectioning-content">HTML 5.2 Sectioning content</ao:a>,
+							with each still acting as a section for things like page outlines and table of contents, but which use more appropriate
+							HTML 5 semantic elements:
+						</p>
+						<ol>
+							<li><ao:a href="https://www.w3.org/TR/html5/sections.html#the-section-element"><![CDATA[&lt;section&gt;]]></ao:a>
+								(this was previously the only supported type of section)
+							</li>
+							<li><ao:a href="https://www.w3.org/TR/html5/sections.html#the-nav-element"><![CDATA[&lt;nav&gt;]]></ao:a></li>
+							<li><ao:a href="https://www.w3.org/TR/html5/sections.html#the-aside-element"><![CDATA[&lt;aside&gt;]]></ao:a></li>
+						</ol>
+						<p>
+							Please note that <ao:a href="https://www.w3.org/TR/html5/sections.html#the-article-element"><![CDATA[&lt;article&gt;]]></ao:a>
+							is not included.  The article is already created by the active view, and nested articles are not supported.
+						</p>
+					</li>
+				</ul>
+			</changelog:release>
 		</c:if>
 
 		<changelog:release

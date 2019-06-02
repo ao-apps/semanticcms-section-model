@@ -1,6 +1,6 @@
 /*
  * semanticcms-section-model - Sections nested within SemanticCMS pages and elements.
- * Copyright (C) 2013, 2014, 2015, 2016, 2019  AO Industries, Inc.
+ * Copyright (C) 2019  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -22,13 +22,25 @@
  */
 package com.semanticcms.section.model;
 
+import static com.aoindustries.util.StringUtility.nullIfEmpty;
+import com.semanticcms.core.model.Element;
+
 /**
- * <a href="https://www.w3.org/TR/html5/sections.html#the-section-element">The section element</a>
+ * <a href="https://www.w3.org/TR/html5/dom.html#sectioning-content">Sectioning content</a>
+ * is content that defines the scope of <a href="https://www.w3.org/TR/html5/sections.html#the-header-element">headings</a>
+ * and <a href="https://www.w3.org/TR/html5/sections.html#the-footer-element">footers</a>.
  */
-public class Section extends SectioningContent {
+abstract public class SectioningContent extends Element {
+
+	private volatile String label;
 
 	@Override
-	protected String getDefaultIdPrefix() {
-		return "section";
+	public String getLabel() {
+		return label;
+	}
+
+	public void setLabel(String label) {
+		checkNotFrozen();
+		this.label = nullIfEmpty(label);
 	}
 }
