@@ -27,7 +27,7 @@ Sections nested within [SemanticCMS](https://github.com/aoindustries/semanticcms
 * [Project Home](https://semanticcms.com/section/model/)
 * [Changelog](https://semanticcms.com/section/model/changelog)
 * [API Docs](https://semanticcms.com/section/model/apidocs/)
-* [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.semanticcms%22%20AND%20a:%22semanticcms-section-model%22)
+* [Maven Central Repository](https://search.maven.org/artifact/com.semanticcms/semanticcms-section-model)
 * [GitHub](https://github.com/aoindustries/semanticcms-section-model)
 
 ## Contact Us
