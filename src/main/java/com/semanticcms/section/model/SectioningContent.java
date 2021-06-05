@@ -1,6 +1,6 @@
 /*
  * semanticcms-section-model - Sections nested within SemanticCMS pages and elements.
- * Copyright (C) 2019, 2020  AO Industries, Inc.
+ * Copyright (C) 2019, 2020, 2021  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -22,7 +22,7 @@
  */
 package com.semanticcms.section.model;
 
-import static com.aoindustries.lang.Strings.nullIfEmpty;
+import static com.aoapps.lang.Strings.nullIfEmpty;
 import com.semanticcms.core.model.Element;
 
 /**
