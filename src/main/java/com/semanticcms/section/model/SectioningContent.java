@@ -30,7 +30,7 @@ import com.semanticcms.core.model.Element;
  * is content that defines the scope of <a href="https://www.w3.org/TR/html5/sections.html#the-header-element">headings</a>
  * and <a href="https://www.w3.org/TR/html5/sections.html#the-footer-element">footers</a>.
  */
-abstract public class SectioningContent extends Element {
+public abstract class SectioningContent extends Element {
 
 	private volatile String label;
 
