@@ -28,8 +28,8 @@ package com.semanticcms.section.model;
  */
 public class Aside extends SectioningContent {
 
-	@Override
-	protected String getDefaultIdPrefix() {
-		return "aside";
-	}
+  @Override
+  protected String getDefaultIdPrefix() {
+    return "aside";
+  }
 }

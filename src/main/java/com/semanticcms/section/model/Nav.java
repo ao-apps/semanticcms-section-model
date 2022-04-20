@@ -28,8 +28,8 @@ package com.semanticcms.section.model;
  */
 public class Nav extends SectioningContent {
 
-	@Override
-	protected String getDefaultIdPrefix() {
-		return "nav";
-	}
+  @Override
+  protected String getDefaultIdPrefix() {
+    return "nav";
+  }
 }
