@@ -24,7 +24,7 @@
 package com.semanticcms.section.model;
 
 /**
- * <a href="https://www.w3.org/TR/html5/sections.html#the-section-element">The section element</a>
+ * <a href="https://www.w3.org/TR/html5/sections.html#the-section-element">The section element</a>.
  */
 public class Section extends SectioningContent {
 

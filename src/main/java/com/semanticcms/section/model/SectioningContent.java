@@ -24,6 +24,7 @@
 package com.semanticcms.section.model;
 
 import static com.aoapps.lang.Strings.nullIfEmpty;
+
 import com.semanticcms.core.model.Element;
 
 /**

@@ -24,7 +24,7 @@
 package com.semanticcms.section.model;
 
 /**
- * <a href="https://www.w3.org/TR/html5/sections.html#the-nav-element">The nav element</a>
+ * <a href="https://www.w3.org/TR/html5/sections.html#the-nav-element">The nav element</a>.
  */
 public class Nav extends SectioningContent {
 
