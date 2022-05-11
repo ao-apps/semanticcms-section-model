@@ -24,7 +24,7 @@
 package com.semanticcms.section.model;
 
 /**
- * <a href="https://www.w3.org/TR/html5/sections.html#the-aside-element">The aside element</a>
+ * <a href="https://www.w3.org/TR/html5/sections.html#the-aside-element">The aside element</a>.
  */
 public class Aside extends SectioningContent {
 
