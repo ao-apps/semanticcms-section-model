@@ -36,15 +36,15 @@ along with semanticcms-section-model.  If not, see <https://www.gnu.org/licenses
     <module.name>com.semanticcms.section.model.book</module.name>
     <!-- These values are copied from the project being documented -->
     <documented.artifactId>semanticcms-section-model</documented.artifactId>
-    <documented.name>SemanticCMS Section Model²</documented.name>
+    <documented.name>SemanticCMS Section Model</documented.name>
     <documented.description>Sections nested within SemanticCMS pages and elements.</documented.description>
 
     <description.html><![CDATA[Documentation for <a target="${javadoc.target}" href="${project.url}">${documented.name}</a> in <a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
   </properties>
 
-  <name>SemanticCMS Section Model² Book</name>
+  <name>SemanticCMS Section Model Book</name>
   <url>https://semanticcms.com/section/model/</url>
-  <description>Documentation for SemanticCMS Section Model² in SemanticCMS format.</description>
+  <description>Documentation for SemanticCMS Section Model in SemanticCMS format.</description>
   <inceptionYear>2013</inceptionYear>
 
   <licenses>
