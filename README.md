@@ -22,7 +22,7 @@ Sections nested within [SemanticCMS](https://github.com/ao-apps/semanticcms) pag
 * [Project Home](https://semanticcms.com/section/model/)
 * [Changelog](https://semanticcms.com/section/model/changelog)
 * [API Docs](https://semanticcms.com/section/model/apidocs/)
-* [Maven Central Repository](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-section-model)
+* [Central Repository](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-section-model)
 * [GitHub](https://github.com/ao-apps/semanticcms-section-model)
 
 ## Contact Us
