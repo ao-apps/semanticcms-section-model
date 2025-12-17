@@ -7,14 +7,14 @@
 [![semantic versioning: 2.0.0](https://semanticcms.com/ao-badges/semver-2.0.0.svg)](https://semver.org/spec/v2.0.0.html)
 [![license: LGPL v3](https://semanticcms.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
-[![Build](https://github.com/ao-apps/semanticcms-section-model/actions/workflows/build.yml/badge.svg?branch=1.x)](https://github.com/ao-apps/semanticcms-section-model/actions?query=workflow%3ABuild)
+[![Build](https://github.com/ao-apps/semanticcms-section-model/actions/workflows/build.yml/badge.svg?branch=2.x)](https://github.com/ao-apps/semanticcms-section-model/actions?query=workflow%3ABuild)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.semanticcms/semanticcms-section-model/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.semanticcms/semanticcms-section-model)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.semanticcms%3Asemanticcms-section-model&metric=alert_status)](https://sonarcloud.io/dashboard?branch=1.x&id=com.semanticcms%3Asemanticcms-section-model)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.semanticcms%3Asemanticcms-section-model&metric=ncloc)](https://sonarcloud.io/component_measures?branch=1.x&id=com.semanticcms%3Asemanticcms-section-model&metric=ncloc)  
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.semanticcms%3Asemanticcms-section-model&metric=reliability_rating)](https://sonarcloud.io/component_measures?branch=1.x&id=com.semanticcms%3Asemanticcms-section-model&metric=Reliability)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.semanticcms%3Asemanticcms-section-model&metric=security_rating)](https://sonarcloud.io/component_measures?branch=1.x&id=com.semanticcms%3Asemanticcms-section-model&metric=Security)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.semanticcms%3Asemanticcms-section-model&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=1.x&id=com.semanticcms%3Asemanticcms-section-model&metric=Maintainability)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.semanticcms%3Asemanticcms-section-model&metric=coverage)](https://sonarcloud.io/component_measures?branch=1.x&id=com.semanticcms%3Asemanticcms-section-model&metric=Coverage)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=2.x&project=com.semanticcms%3Asemanticcms-section-model&metric=alert_status)](https://sonarcloud.io/dashboard?branch=2.x&id=com.semanticcms%3Asemanticcms-section-model)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=2.x&project=com.semanticcms%3Asemanticcms-section-model&metric=ncloc)](https://sonarcloud.io/component_measures?branch=2.x&id=com.semanticcms%3Asemanticcms-section-model&metric=ncloc)  
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?branch=2.x&project=com.semanticcms%3Asemanticcms-section-model&metric=reliability_rating)](https://sonarcloud.io/component_measures?branch=2.x&id=com.semanticcms%3Asemanticcms-section-model&metric=Reliability)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?branch=2.x&project=com.semanticcms%3Asemanticcms-section-model&metric=security_rating)](https://sonarcloud.io/component_measures?branch=2.x&id=com.semanticcms%3Asemanticcms-section-model&metric=Security)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=2.x&project=com.semanticcms%3Asemanticcms-section-model&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=2.x&id=com.semanticcms%3Asemanticcms-section-model&metric=Maintainability)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?branch=2.x&project=com.semanticcms%3Asemanticcms-section-model&metric=coverage)](https://sonarcloud.io/component_measures?branch=2.x&id=com.semanticcms%3Asemanticcms-section-model&metric=Coverage)
 
 Sections nested within [SemanticCMS](https://github.com/ao-apps/semanticcms) pages and elements.
 
